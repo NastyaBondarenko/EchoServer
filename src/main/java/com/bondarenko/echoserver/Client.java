@@ -45,6 +45,7 @@ public class Client {
                 bufferedReader.close();
                 bufferedWriter.close();
             }
+            
         } catch (IOException ioException) {
             System.out.println(ioException);
         }
